@@ -1,11 +1,10 @@
 ## I added these files:
-
-*/Build
-*/Binaries
-*/DerivedDataCache
-*/Intermediate
-*/Saved
-BuildingEscape/Content/StarterContent/
+*Build/
+*Binaries/
+*DerivedDataCache/
+*Intermediate/
+*Saved/
+Content/StarterContent/
 
 
 ## Ignore Visual Studio temporary files, build results, and
