@@ -4,7 +4,8 @@
 *DerivedDataCache/
 *Intermediate/
 *Saved/
-Content/StarterContent/
+Content/StarterContent/Textures
+Content/StarterContent/HDRI
 
 *.VC.db
 *.ipch
