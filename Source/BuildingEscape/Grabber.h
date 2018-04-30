@@ -5,13 +5,14 @@
 #include "CoreMinimal.h"
 #include "Components/ActorComponent.h"
 #include "PhysicsEngine/PhysicsHandleComponent.h"
+#include "Components/InputComponent.h"
 #include "Grabber.generated.h"
 
 
 UCLASS( ClassGroup=(Custom), meta=(BlueprintSpawnableComponent) )
 class BUILDINGESCAPE_API UGrabber : public UActorComponent
 {
-	GENERATED_BODY()
+GENERATED_BODY()
 
 public:	
 	// Sets default values for this component's properties
@@ -31,6 +32,9 @@ private:
 	//how far ahead the player can reach.
 	float Reach = 100.f;
 
-
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
+	UInputComponent* InputComponent = nullptr;
+
+	//raycast and find whats in reach
+	void Grab();
 };
