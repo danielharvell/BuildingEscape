@@ -35,6 +35,7 @@ private:
 	UPhysicsHandleComponent* PhysicsHandle = nullptr;
 	UInputComponent* InputComponent = nullptr;
 
-	//raycast and find whats in reach
+	//raycast and find whats in reach, grab or release
 	void Grab();
+	void Release();
 };
